@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kerala tourism wesite</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=devicewidth,intialscale=1.0">
+    <style>
+        html,
+        body {
+            height: 100%;
+            background-color: white;
+            margin: 0;
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+
+        .head {
+            background-color: white;
+            height: 75px;
+            width: 100%;
+        }
+
+        .head::after {
+            content: "";
+            clear: both;
+        }
+
+        #logo {
+            float: left;
+            width: 50px;
+            height: auto;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        .navlist {
+            padding-top: 25px;
+            padding-right: 10px;
+        }
+
+        .navlist li {
+            float: right;
+            margin-left: 10px;
+            list-style-type: none;
+        }
+
+        .navlist li a {
+            text-decoration: none;
+        }
+
+        .content {
+            background-color: white;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        p {
+            color: black;
+            height: 100%;
+            padding-top: 10px;
+        }
+
+        .outer {
+            width: 100%;
+        }
+        .outernew{
+            display: none;
+
+        }
+
+        .thumb {
+            width: 30%; 
+            float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .singlethumb{
+            width: 100%; 
+        }
+        .titlehead{
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+        }
+        .thumb img{
+            width: 300px;
+            height: 300px;
+        }
+        .singlethumb img{
+            width: 300px;
+        }
+        .titlehead{
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <img id="logo" src="images/Photo 2.png" />
+        <nav class="navlist">
+            <ul>
+                <li><a href="HOME">HOME</a></li>
+                <li><a href="LOGIN.html">LOGIN</a></li>
+                <li><a href="SIGNIN.html">SIGNIN</a></li>
+                <li><a href="DISTRICTS.html">DISTRICTS</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="titlehead">
+        <h1>Important Tourist Spots</h1>
+    </div>
+    <div class="content">
+        <div class="outer" >
+            <div class="thumb">
+                <img src="images/pictures/edakkal cave wayanad.jpg" />
+                <br />
+                <span>Edakkalcave</span>
+            </div>
+            <div class="thumb">
+                <img src="images/pictures/kuruva island wayanad.jpg" />
+                <br />
+                <span>KuruvaIsland</span>
+            </div> 
+            <div class="thumb">
+                <img src="images/pictures/banasurasagardamwayanad.jpg" />
+                <br />
+                <span>Banasurasagardam</span>
+            </div>
+        </div>
+        <div class="outernew">
+           
+            <div class="singlethumb">
+                <img src="images/pictures/kovalam beach tvm.jpg" />
+                <span>Image title</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
